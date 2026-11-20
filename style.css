@@ -1,0 +1,107 @@
+/* ============================== Global Reset ======================================== */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ============================= Actual Styling ======================================= */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #F7F3EA;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+button{
+    font-family: inherit;
+    background: bisque;
+    border: 0;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.topbar{
+    min-height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px 4%;
+    background: #292521;
+    border-bottom: 1px soliD #A94F2C;
+}
+
+.branding{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.brand-logo{
+    background-color: bisque;
+    border-radius: 15px;
+    padding: 10px 16px;
+    font-weight: bold;
+    color: #292521;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.branding h1{
+    color: bisque;
+    letter-spacing: 3px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.branding p{
+    color: orange;
+    font-size: 9px;
+    font-family: cursive;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    font-family: cursive;
+}
+
+nav a{
+    color: #D58A5B;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #A94F2C;
+}
+
+.sys-status{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    color: #00FF00;
+    font-size: 11px;
+}
+
+.online-dot{
+    width: 7px;
+    height: 7px;
+    background: #00FF00;
+    border-radius: 50%;
+}
+
+#clock{
+    color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 4px;
+}

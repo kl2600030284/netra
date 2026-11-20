@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Live mission control for KL University's campus rovers">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <title>NETRA - Rover Monitor</title>
+</head>
+<body>
+    <!-- ============================================= Header Section ============================================ -->
+     <header class="topbar">
+        <!-- =================================== Logo and Name =========================================== -->
+            <div class="branding">
+                <div class="brand-logo">N</div>
+                <div class="brand-name">
+                    <h1>NETRA</h1>
+                    <p>Rover Monitoring System</p>
+                </div>
+            </div>
+
+            <!-- ================================== Navbar =================================== -->
+             <nav>
+                <a href="#dashboard">Dashboard</a>
+                <a href="#fleet">Fleet</a>
+                <a href="#telemetry">Telemetry</a>
+                <a href="#alerts">Alerts</a>
+             </nav>
+
+             <!-- ============================ System Status ============================== -->
+              <div class="sys-status">
+                <span class="online-dot"></span>
+                <span>System Online</span>
+                <strong id="clock">--:--:--</strong>
+              </div>
+
+              <!-- ============================ Dispatch Button ======================================== -->
+               <button id="dispatch-open" type="button">Dispatch Mission</button>
+</header>
+</body>
+</html>
